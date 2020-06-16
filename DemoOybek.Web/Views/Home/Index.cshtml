@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    var rnd = new Random();
+    var next = rnd.Next(500, 2000);
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome T3 Support team!</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <p>Some random number: @next</p>
+</div>
